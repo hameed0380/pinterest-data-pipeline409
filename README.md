@@ -14,7 +14,6 @@ This is a end to end AWS-hosted data pipeline inspired by Pinterest's experiment
 
 ![Images](Images/CloudPinterestPipeline.png)
 
-
 ## Description
 The process involves:
 - Data Emulation: This involves crafting a script to extract data from an RDS DB, simulating the process of data posting.
@@ -43,7 +42,7 @@ The process involves:
 
 
 ## Installation
-In order to view and use the report on your local machine, run this command in an appropriate directory:
+In order to view  the project on your local machine, run this command in an appropriate directory:
 
    ``` bash
    git clone https://github.com/hameed0380/pinterest-data-pipeline409.git
