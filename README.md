@@ -16,7 +16,14 @@ This is a end to end AWS-hosted data pipeline inspired by Pinterest's experiment
 
 
 ## Description
-
+The process involves:
+- Data Emulation: This involves crafting a script to extract data from an RDS DB, simulating the process of data posting.
+- Data Processing via Kafka: Utilizing Kafka for efficient data ingestion, ensuring smooth handling of incoming data streams.
+- Storing Data in S3: Data is stored in an S3 bucket, ensuring seamless accessibility for potential analyses and usage scenarios.
+- API Development with API Gateway: A custom API, integrated with API Gateway, is developed to streamline the flow of data into the Kafka cluster, subsequently storing it in the S3 bucket.
+- Integration with Databricks: Connecting the S3 bucket to Databricks for comprehensive batch analysis of Pinterest data, enabling in-depth insights.
+- Managed Workflows with Apache Airflow (MWAA): Employing MWAA to orchestrate intricate data workflows using Directed Acyclic Graphs (DAGs), automating and overseeing the data pipeline with efficiency.
+- Real-Time Data Handling with Kinesis: Integrating AWS Kinesis Data Streams to enhance the pipeline's capabilities for real-time data management, ensuring agility in processing live data feeds.
 
 
 ## File Structure
