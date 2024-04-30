@@ -2,13 +2,11 @@
 
 
 ## Table of Contents
-- [Pinterest Data Pipeline](#pinterest-data-pipeline)
-  - [Table of Contents](#table-of-contents)
-  - [Project Overview](#project-overview)
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [File Structure](#file-structure)
+- [Project Overview](#project-overview)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
 
 ## Project Overview
 This is a end to end AWS-hosted data pipeline inspired by Pinterest's experiment processing pipeline. The pipeline is developed using a Lambda architecture. 
