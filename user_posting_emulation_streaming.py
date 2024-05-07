@@ -85,10 +85,9 @@ def run_infinite_post_data_loop():
             # print(geo_result)
             # print(user_result)
 
-
-            send_to_kinesis(user_result, "streaming-0e284c63dbbf-pin")
+            send_to_kinesis(pin_result, "streaming-0e284c63dbbf-pin")
             send_to_kinesis(geo_result, "streaming-0e284c63dbbf-geo")
-            send_to_kinesis(pin_result, "streaming-0e284c63dbbf-user")
+            send_to_kinesis(user_result, "streaming-0e284c63dbbf-user")
 
 if __name__ == "__main__":
     run_infinite_post_data_loop()
