@@ -17,9 +17,9 @@ class AWSDBConnector:
 
     def __init__(self):
 
-        self.HOST = "pinterestdbreadonly.cq2e8zno855e.eu-west-1.rds.amazonaws.com"
+        self.HOST = "host"
         self.USER = 'project_user'
-        self.PASSWORD = ':t%;yCY3Yjg'
+        self.PASSWORD = 'pass'
         self.DATABASE = 'pinterest_data'
         self.PORT = 3306
         
@@ -94,5 +94,6 @@ if __name__ == "__main__":
     print('Working')
     
     
+
 
 
